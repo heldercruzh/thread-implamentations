@@ -1,8 +1,8 @@
 <h1 aligh="center">Thread is the application can create a small unit of tasks to execute in parallel. <h1> 
-	
-	- Once we start any thread, it’s execution depends on the OS implementation of time 
-	slicing and we can’t control heir execution. However we can set threads priority 
-	but even then it doesn’t guarantee that higher priority thread will be executed first.
+
+Once we start any thread, it’s execution depends on the OS implementation of time 
+slicing and we can’t control heir execution. However we can set threads priority 
+But even then it doesn’t guarantee that higher priority thread will be executed first.
 	
 # Types 
 	- user thread  (ex: main method)
@@ -44,7 +44,7 @@
 	- Using thread safe collection classes
 	     - ConcurrentHashMap: is similar to HashMap, except that it’s thread-safe and allows modification while iteration.
 	- Using volatile keyword with variables to make every thread read the data from memory, not read from thread cache.
-	- Safe Singleton: restrict the object created by applications, used wisely to avoid any resource crunch. (use Synchronized block inside the if 	 	  loop and volatile variable)
+	- Safe Singleton: restrict the object created by applications, used wisely to avoid any resource crunch. (use Synchronized block inside the if 	 		  loop and volatile variable)
 
 # PoolExecutor: manages the pool of worker threads. It contains a queue that keeps tasks waiting to get executed.
 		
