@@ -1,7 +1,8 @@
 <h1 aligh="center">Thread is the application can create a small unit of tasks to execute in parallel. <h1> 
 	
-	Once we start any thread, it’s execution depends on the OS implementation of time slicing and we can’t control 
-	their execution. However we can set threads priority but even then it doesn’t guarantee that higher priority thread will be executed first.
+	- Once we start any thread, it’s execution depends on the OS implementation of time 
+	slicing and we can’t control heir execution. However we can set threads priority 
+	but even then it doesn’t guarantee that higher priority thread will be executed first.
 	
 # Types 
 	- user thread  (ex: main method)
