@@ -1,7 +1,7 @@
 <h1 align="center">Java multithreading implementation examples<h1> 
 
-	- Thread is the application can create a small unit of tasks to execute in parallel.
-
+# Concepts: 
+        - Thread is the application can create a small unit of tasks to execute in parallel.
 	- Once we start any thread, it’s execution depends on the OS implementation of time 
 	slicing and we can’t control heir execution. However we can set threads priority 
 	But even then it doesn’t guarantee that higher priority thread will be executed first.
